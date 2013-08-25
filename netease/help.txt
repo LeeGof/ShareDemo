@@ -1,0 +1,11 @@
+第一步：将资源文件加入到你的项目中，
+
+第二步：初始化：
+	 NeteaseEngine *engine = [[[NeteaseEngine alloc] initWithAppKey:KEY_NETEASE appSecret:SECRETKEY_NETEASE] autorelease];
+    [engine setDelegate:self];
+    self.weiBoEngine = engine;
+
+
+第三步：自己选择是需要登录还是发送微博
+
+第一次登录后以后都不用在登录了。
